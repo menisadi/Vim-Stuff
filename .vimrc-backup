@@ -17,10 +17,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'preservim/vim-markdown'
 Plugin 'tmhedberg/simpylfold'
 Plugin 'vim-scripts/indentpython.vim'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'nvie/vim-flake8'
 Plugin 'junegunn/fzf.vim'
-Plugin 'ycm-core/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -39,7 +36,6 @@ filetype plugin indent on    " required
 set hidden
 autocmd BufNewFile,BufRead *.sql set filetype=sql
 syntax on
-let python_highlight_all=1
 set incsearch
 set hlsearch
 set encoding=utf-8
@@ -54,4 +50,3 @@ colorscheme gruvbox
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
-set clipboard=unnamed
