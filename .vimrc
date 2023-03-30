@@ -55,11 +55,8 @@ colorscheme gruvbox
 set foldmethod=indent
 set foldlevel=99
 set clipboard=unnamed
-<<<<<<< HEAD
-=======
 command -nargs=0 Today :r !date "+\%F"
 command -nargs=0 Todayheader :execute "normal i## " . strftime("%Y-%m-%d") . "\r"
 ab :sadface: 😔 
 ab :happyface: 😊
 ab :thinkface: 🤔
->>>>>>> ac31559 (Added simple diary macros)
